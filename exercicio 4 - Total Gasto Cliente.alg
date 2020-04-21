@@ -1,10 +1,10 @@
-algoritmo "Aula_Sergio"
-// Função :
-// Autor : Sérgio
+algoritmo "Total_Gasto_Cliente"
+// FunÃ§Ã£o :
+// Autor : Paulo SÃ©rgio Martins
 // Data : 19/04/2020
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 
-FUNÇÃO imprimir(xop: Inteiro): LOGICO
+FUNÃ‡ÃƒO imprimir(xop: Inteiro): LOGICO
   Var
 voltar : LOGICO
 Inicio
@@ -21,15 +21,15 @@ var
    op , qParcela: inteiro
    
 inicio
-   // Seção de Comandos
+   // SeÃ§Ã£o de Comandos
 
    escreval("Digite o valor da compra:")
    leia(vCompra)
 
-   escreval("Digite a opção desejada:")
+   escreval("Digite a opÃ§Ã£o desejada:")
    escreval("1 - a vista com 10% de desconto")
-   escreval("2 - em duas vezes (preço da etiqueta")
-   escreval("3 - de 3 até 10 vezes com 3% de juros ao mês (somente para compras acima de R$ 100,00")
+   escreval("2 - em duas vezes (preÃ§o da etiqueta")
+   escreval("3 - de 3 atÃ© 10 vezes com 3% de juros ao mÃªs (somente para compras acima de R$ 100,00")
 
    leia(op)
 
@@ -39,12 +39,12 @@ inicio
    fimse
 
    se(op = 2) entao
-      escreval("2 prestações de: R$", vCompra/2)
+      escreval("2 prestaÃ§Ãµes de: R$", vCompra/2)
    fimse
 
    se(op = 3) entao
       se(vCompra>100) entao
-         escreval("Digite um número de parcelas de 3 a 10 vezes")
+         escreval("Digite um nÃºmero de parcelas de 3 a 10 vezes")
          leia(qParcela)
 
          vParcela <- vCompra/qParcela
@@ -55,7 +55,7 @@ inicio
 
 
       senao
-         escreval("O valor não permite dividir mais do que 2 vezes")
+         escreval("O valor nÃ£o permite dividir mais do que 2 vezes")
       fimse
    fimse
    SE imprimir(op) ENTaO
