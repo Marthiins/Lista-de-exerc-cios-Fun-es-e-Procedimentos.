@@ -1,5 +1,6 @@
 algoritmo "Total_Gasto_Cliente"
-// Função :
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : Me. Aldo Henrique
 // Autor : Paulo Sérgio Martins
 // Data : 19/04/2020
 // Seção de Declarações
